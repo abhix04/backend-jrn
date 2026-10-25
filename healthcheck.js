@@ -6,7 +6,7 @@ function checkHealth(){
     const totalMem = (os.totalmem()/(1024*1024)).toFixed(2);
 
     return{
-        status:'UP',
+        status:'STATUS_HEALTHY_🚀',
         timestamp: new Date().toISOString(),
         uptimeSeconds: uptime,
         memory: `${freeMem}MB free / ${totalMem} MB total`
